@@ -1,0 +1,5 @@
+{
+  "name": "StaticBox",
+  "description": "一个简单的静态文件托管展示框架。将文件放入 public 目录，配置清单即可生成展示页。",
+  "requestFramePermissions": []
+}
