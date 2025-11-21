@@ -1,4 +1,4 @@
-import { StaticFile } from './types'
+import type { StaticFile } from './types';
 
 // ==========================================
 // 📂 文件清单 (File Registry)
@@ -11,25 +11,18 @@ import { StaticFile } from './types'
 
 export const fileRegistry: StaticFile[] = [
   {
-    name: 'up.mp3',
-    path: '/audio/up.mp3', // 示例文件
-    type: 'audio',
-    size: '1 KB',
-    date: '2025-11-21',
+    name: '演示图片 (React Logo)',
+    path: '/logo192.png', // 这是 React 项目默认自带的文件
+    type: 'image',
+    size: '5 KB',
+    date: '2023-10-25'
   },
   {
-    name: 'fail.mp3',
-    path: '/audio/fail.mp3', // 示例文件
-    type: 'audio',
+    name: '项目说明文档',
+    path: '/robots.txt', // 示例文件
+    type: 'code',
     size: '1 KB',
-    date: '2025-11-21',
-  },
-  {
-    name: 'unbelievable.mp3',
-    path: '/audio/unbelievable.mp3', // 示例文件
-    type: 'audio',
-    size: '1 KB',
-    date: '2025-11-21',
+    date: '2023-11-01'
   },
   // 在这里添加更多文件...
   // {
@@ -38,4 +31,4 @@ export const fileRegistry: StaticFile[] = [
   //   type: 'pdf',
   //   size: '4.2 MB'
   // }
-]
+];
